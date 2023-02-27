@@ -1,17 +1,17 @@
 @font-face {
     font-family: 'Avenir';
-    src: url(/assets/fonts/Avenir\ LT\ Std\ 45\ Book.otf);
+    src: url(../fonts/Avenir\ LT\ Std\ 45\ Book.otf);
 }
 
 @font-face {
     font-family: 'Avenir Black';
-    src: url(/assets/fonts/Avenir\ LT\ Std\ 95\ Black.otf);
+    src: url(../fonts/Avenir\ LT\ Std\ 95\ Black.otf);
 }
 
 
 @font-face {
     font-family: 'Freeline';
-    src: url(/assets/fonts/FreeLine.otf);
+    src: url(../fonts/FreeLine.otf);
 }
 
 
