@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url(/assets/fonts/Avenir\ LT\ Std\ 45\ Book.otf);
+}
+
+@font-face {
+    font-family: 'Avenir Black';
+    src: url(/assets/fonts/Avenir\ LT\ Std\ 95\ Black.otf);
+}
+
+
+@font-face {
+    font-family: 'Freeline';
+    src: url(/assets/fonts/FreeLine.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+p{
+    font-family: 'Avenir';
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Avenir Black';
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.imgshop {
+    width: 300px;
+    object-fit: contain;
+}
+
+.spaces{
+    padding: 1rem;
+    opacity: 0;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.mytitulo {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.mydescripcion {
+    text-align: center;
+    font-family: 'Avenir';
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+
+.myboton{
+    font-size: 1.3rem;
+    font-family: 'Avenir';
+    background-color: black;
+    color: aliceblue;
+}
+
+.myboton:hover{
+    background-color: rgb(58, 57, 57);
+    color: aliceblue;
+}
+
+.mydivrestysuma{
+    display: flex;
+    justify-content: center;
+}
+
+.restarCantidad {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Avenir';
+    font-size: 0.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.sumarCantidad {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Avenir';
+    font-size: 0.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.mycarrito{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-cart-plus{
+    font-size: 1.5rem;
+}
+
+.mybanner{
+    color: #f1f1f1;
+    font-family: 'Freeline';
+    font-size: 3.5rem;
+}
+
+.mybanner2{
+    color: #f1f1f1;
+    font-family: 'Freeline';
+    font-size: 2.0rem;
+    padding-bottom: 2rem;
+}
+
+.banner{
+    background-color: #000000;
+    border-radius: 0.5rem;
+    padding-top: 3rem;
+}
+
+.fa-facebook-f{
+    font-size: 1.5rem;
+}
+.fa-instagram{
+    font-size: 1.5rem;
+}
+
+.fa-twitter{
+    font-size: 1.5rem;
+}
